@@ -24,7 +24,7 @@ console.log(checkFunc(6));
 
 // Create a function that returns true if the first array can be nested inside the second array 
 // let arrFunc = (arr1,arr2) => {
-//     if ((Math.min(...arr1) > Math.min(...arr2)) && (Math.max(...arr1) > Math.max(...arr2)) ) {
+//     if ((Math.min(...arr1) < Math.min(...arr2)) && (Math.max(...arr1) > Math.max(...arr2)) ) {
 //         return true
 //     }else {
 //         return false
